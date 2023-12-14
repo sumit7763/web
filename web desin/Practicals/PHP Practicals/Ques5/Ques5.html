@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registeration form</title>
+</head>
+
+<body>
+    <center>
+        <h1>Student registeration form</h1>
+    </center>
+    <form action="report.php" method="get" enctype="multipart/formdata">
+        <label>Student's name - </label>
+        <input name="name" type="text" placeholder="rahul kumar" maxlength="32" required>
+        <br><br>
+        <lable>Students's roll no. - </lable>
+        <input name="password" type="password" placeholder="21HCS4169" minlength="8" required>
+        <br><br>
+        <lable>email id - </lable>
+        <input name="email" type="text" placeholder="helloworld@gmail.com" maxlength="30" required>
+        <br><br>
+        <lable>Students's age - </lable>
+        <input name="age" type="number" placeholder="age" maxlength="2" required>
+        <br><br>
+        <lable>Gender - </lable><br>
+        <input type="radio" name="male" />Male<br>
+        <input type="radio" name="female" />Female<br>
+        <input type="radio" name="others" />Others<br>
+        <br>
+        <label>societies</label><br>
+        <input type="checkbox" name="sanganika" />sanganika<br>
+        <input type="checkbox" name="enactus" />enactus<br>
+        <input type="checkbox" name="sangyaan" />sangyaan<br>
+        <input type="checkbox" name="kalamkaar" />kalamkaar<br>
+        <br>
+        <select name="courses">
+            <option>B.Sc (Hons.) Computer Science</option>
+            <option>B.Sc (Hons.) Physics</option>
+            <option>B.Sc (Hons.) Chemistry</option>
+            <option>B.Sc (Hons.) Mathematics</option>
+            <option>B.Sc (Hons.) Physical Science with Computer
+                Science</option>
+            <option>B.Sc (Hons.) Botony</option>
+            <option>B.Sc (Hons.) Zoology</option>
+            <option>B.M.S</option>
+            <option>B.Com (Hons.) </option>
+            <option>B.A (Hons.) English </option>
+            <option>B.A (Hons.) History </option>
+            <option>B.A (Hons.) Economics </option>
+        </select><br>
+        <lable>Address - </lable><br>
+        <textarea name="address" required></textarea>
+        <br>
+        <input name="submit" type="submit">
+    </form>
+</body>
+
+</html>
